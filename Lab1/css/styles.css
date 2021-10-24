@@ -76,6 +76,15 @@
   }
 }
 
+.letter-upper {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.letter-content {
+  font-size:25px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
