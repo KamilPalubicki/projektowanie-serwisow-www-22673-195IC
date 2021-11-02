@@ -10,6 +10,7 @@
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 <body>
 <!-- Responsive navbar-->
@@ -29,14 +30,30 @@
 </nav>
 <!-- Page content-->
 <div class="container">
-  <div class="text-center mt-5">
-    <h1>Kamil Pałubicki</h1>
-    <p class="lead">Laboratorium nr1</p>
-    <p>Wykorzystane technologie:</p>
-    <p>Bootstrap</p>
-    <p>HTML</p>
-    <p>CSS</p>
-    <p>JS</p>
+  <div class="form-custom text-center">
+    <h1>Formularz kontaktowy</h1>
+    <form>
+      <br>
+      <div class="form-control">
+        <label for="InputEmail">Adres e-mail</label>
+        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailInfo" placeholder="Podaj e-mail">
+        <small id="emailInfo" class="form-text text-muted">E-mail będzie wykorzystywany tylko do póżniejszego kontaktu w sprawie wiadomości</small>
+        <br><br>
+        <label for="InputName">Imię i nazwisko</label>
+        <input type="form-control" class="form-control" id="InputName" placeholder="Podaj imię i nazwisko">
+        <br>
+        <label for="FormControlTextarea">Wiadomość</label>
+        <textarea class="form-control" id="FormControlTextarea" rows="5"></textarea>
+        <br>
+        <br>
+        <div id="captcha">
+          <div id="captcha-checkbox"></div>
+          I'm not a robot
+        </div>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 </div>
 <!-- Bootstrap core JS-->

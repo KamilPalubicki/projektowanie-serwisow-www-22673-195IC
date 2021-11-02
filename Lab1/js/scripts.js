@@ -1,7 +1,17 @@
-/*!
-* Start Bootstrap - Bare v5.0.7 (https://startbootstrap.com/template/bare)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-bare/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+var captcha = document.getElementById("captcha");
+
+var passOrFail = function() {
+    var pass = Math.round(Math.random());
+    pass="pass"
+    return pass; //failed result to be implemented
+}
+
+captcha.onclick = function() {
+    if (captcha.className.includes("loading")) return;
+    captcha.className = "";
+    captcha.className += "loading";
+    setTimeout(function() {
+        captcha.className = captcha.className.replace("loading", "");
+        captcha.className += passOrFail();
+    }, Math.floor((Math.random() * 3000) + 1000));
+}
