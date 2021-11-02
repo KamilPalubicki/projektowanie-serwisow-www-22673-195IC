@@ -1,5 +1,6 @@
 # Lab1
 
+Aby sprawdzić działanie strony wejdź [tutaj](https://kamilpalubicki.github.io/index.html) :fire:
 
 <p>Plik index.html zawiera stronę główną z odnośnikami (w prawym rogu) do przekierowania 
 na konkretną podstronę<br></p>
