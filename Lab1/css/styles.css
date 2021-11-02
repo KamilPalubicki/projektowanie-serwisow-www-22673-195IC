@@ -155,6 +155,32 @@
   100% { transform: rotate(360deg); }
 }
 
+.strona-podrecznika{
+  font-family: TimesNewRoman;
+  margin: 60px;
+  padding: 60px;
+}
+
+.rownanie{
+  margin-left: 70px;
+  font-size: 25px;
+}
+
+.polecenie{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.przypomnienie{
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.zadanie{
+  margin-left: 80px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
