@@ -30,4 +30,4 @@
 
 <p><br>Wysłanie formularza:<br></p>
 
-<img src="assets/form2png" alt="formularz"  style="float: left;" />
+<img src="assets/form2.png" alt="formularz"  style="float: left;" />
