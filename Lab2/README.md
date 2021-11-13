@@ -6,6 +6,10 @@
 
 <img src="assets/index.png" alt="index"  style="float: left;" />
 
+<p>Dostępny jest również czarny motyw strony:<br></p>
+
+<img src="assets/index2.png" alt="index"  style="float: left;" />
+
 
 # list.html
 
@@ -31,3 +35,13 @@
 <p><br>Wysłanie formularza:<br></p>
 
 <img src="assets/form2.png" alt="formularz"  style="float: left;" />
+
+# memy.html
+
+<p>Powstała także podstrona zawierająca memy (na ten moment 1), możemy ją przeglądać również w ciemnym motywie<br></p>
+
+<img src="assets/memy.png" alt="memy"  style="float: left;" />
+
+<p><br>Jest też możliwosć ocenienia "łapką w górę" lub "w dół" ukazanego mema<br></p>
+
+<img src="assets/memy2.png" alt="memy"  style="float: left;" />

@@ -23,3 +23,20 @@ function clock(){
 var darktheme = document.createElement("button");
 darktheme.innerText = "Czarny motyw";
 darktheme.style.marginRight= "10px";
+
+document.getElementById("button").appendChild(darktheme);
+
+darktheme.onclick = function(){
+    document.getElementById("container").style.fontSize = "30px";
+};
+
+var content = document.getElementById("content");
+darktheme.onclick = function (){
+    if(content.style.color!=="black"){
+        content.style.backgroundColor="white";
+        content.style.color = "black";
+    }else {
+        content.style.backgroundColor = "black";
+        content.style.color = "white";
+    }
+}
