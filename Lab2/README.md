@@ -10,6 +10,13 @@
 
 <img src="assets/index2.png" alt="index"  style="float: left;" />
 
+<p>W prawym górnym rogu pojawiła się opcja zaloguj się która nas przenosi do podstrony logowania:<br></p>
+
+<img src="assets/index3.png" alt="index"  style="float: left;" />
+
+<p>Po uzupełnieniu danych i kliknięciu przycisku pojawia się alert powitalny<br></p>
+
+<img src="assets/index4.png" alt="index"  style="float: left;" />
 
 # list.html
 

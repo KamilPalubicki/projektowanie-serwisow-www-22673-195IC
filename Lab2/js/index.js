@@ -40,3 +40,13 @@ darktheme.onclick = function (){
         content.style.color = "white";
     }
 }
+
+var logowanie = document.createElement("button");
+logowanie.innerHTML = "Zaloguj się";
+logowanie.id ="logowanko";
+logowanie.style.backgroundSize = "cover";
+document.getElementById("nav").appendChild(logowanie);
+
+logowanie.onclick = function(){
+    location.href = "logowanie.html";
+};

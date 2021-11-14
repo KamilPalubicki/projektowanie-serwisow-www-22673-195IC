@@ -7,7 +7,7 @@
     <meta name="author" content="Kamil Pałubicki" />
     <title></title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/flavicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/lidi.css" rel="stylesheet" />
@@ -34,7 +34,7 @@
     <div class="text-center mt-5">
         <h1>Memy</h1>
         <img src="img/jsmeme.png"><br><br>
-        <div class="buttons-like-dislike" id="demoA"></div><br><br><br><br><br><br><br><br>
+        <div class="buttons-like-dislike" id="opinion"></div><br><br><br><br><br><br><br><br>
     </div>
 </div>
 <footer class="footer-sticky mt-auto py-3 bg-dark">
@@ -51,7 +51,7 @@
 <script>
     lidi.create({
         status : 1, // DEFAULT STATUS, 1 LIKE, -1 DISLIKE
-        hWrap : document.getElementById("demoA"),
+        hWrap : document.getElementById("opinion"),
         onChange : (status) => {
             var data = new FormData();
             data.append("status", status);
