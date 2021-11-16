@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Kamil Pałubicki" />
+    <title></title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/flavicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/lidi.css" rel="stylesheet" />
+</head>
+<body onload="lidi.attach()" id="content">
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Projektowanie serwisów WWW</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="list.html">List</a></li>
+                <li class="nav-item"><a class="nav-link" href="podrecznik.html">Podręcznik</a></li>
+                <li class="nav-item"><a class="nav-link" href="formularz.html">Formularz</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="memy.html">Memy</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Page content-->
+<div class="container">
+    <div class="text-center mt-5">
+        <h1>Memy</h1>
+        <img id="meme" src="img/jsmeme.png"><br><br>
+        <div class="buttons-like-dislike" id="opinion"></div><br><br><br><br><br><br><br><br>
+    </div>
+</div>
+<footer class="footer-sticky mt-auto py-3 bg-dark">
+    <div class="letter-content" id="button"></div>
+    <div id="clock" class="text-muted">
+        time
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/memy.js"></script>
+<script src="js/lidi.js"></script>
+<script>
+    lidi.create({
+        status : 1, // DEFAULT STATUS, 1 LIKE, -1 DISLIKE
+        hWrap : document.getElementById("opinion"),
+        onChange : (status) => {
+            var data = new FormData();
+            data.append("status", status);
+            fetch("js/1-dummy.txt", { method: "POST", body: data })
+                .then(res => res.text())
+                .then((txt) => { console.log(txt); })
+                .catch((err) => { console.error(err); });
+        }
+    });
+</script>
+</body>
+</html>
