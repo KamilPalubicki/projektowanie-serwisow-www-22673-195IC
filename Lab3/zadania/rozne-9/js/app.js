@@ -5,7 +5,7 @@ function sortowanie(a,b){
 }
 
 function zadanie(){
-    const tekst = "Ania|Kamil|Pawel|Piotr|Julia|Kacper|Patrycja";
+    const tekst = "Ania|Kamil|Pawel|Bartosz|Maciej|Julia|Kacper|Patrycja";
     const rozdzial = '|';
     sortowanie(tekst, rozdzial)
 }

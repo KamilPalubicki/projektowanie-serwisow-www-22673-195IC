@@ -5,5 +5,4 @@ function printNumbers(nr)
         str += i;
     return str;
 }
-
 alert(printNumbers(12));

@@ -39,3 +39,11 @@ function randfont() {
     num = Math.floor(Math.random() * 4);
     document.getElementById("letter").style.fontFamily = fontType[num];
 }
+
+var baner = document.getElementById("banner");
+baner.addEventListener("mouseleave", changecolor);
+
+function changecolor() {
+    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    this.style.color = "#"+randomColor;
+}
