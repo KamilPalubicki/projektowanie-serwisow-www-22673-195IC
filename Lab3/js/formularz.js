@@ -23,6 +23,7 @@ function submitForm() {
 var captchabutton = document.getElementById("captcha");
 var form = document.getElementById("InputEmail");
 form.addEventListener("change", resetCaptcha);
+form.addEventListener("paste", checkPasted);
 captchabutton.addEventListener("click", authorize);
 
 function resetCaptcha() {
@@ -33,6 +34,10 @@ function resetCaptcha() {
 function authorize() {
     var submit = document.getElementById("buttonSubmit");
     submit.style.backgroundColor = "green";
+}
+
+function checkPasted() {
+    alert("Sprawdź poprawność danych które zostały wklejone!");
 }
 
 var baner = document.getElementById("banner");
