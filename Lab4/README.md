@@ -3,13 +3,9 @@
 ## gra.html
 
 ### W tym laboratorium pracowałem nad stworzeniem gry opartej na elementach canvas (komentarze w gra.js)
-<br>
-
 ### Teraz przechodząc do zakładki 'Gra' możemy zobaczyć prostą grę '2048'
 <br>
 <img src="assets/menubar.png" alt="game in menubar"  style="float: left;" /><br>
-<br>
-
 
 ## Gra
 ### Celem gry 2048 jest takie przesuwanie i łączenie pojawiających się na planszy klocków, aby utworzyć klocek z liczbą 2048. 

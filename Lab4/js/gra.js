@@ -64,7 +64,7 @@ function cell(row, col){
     this.x = col * width + 5 * (col+1);
     this.y = row * width + 5 * (row+1);
 }
-// Tworzenie pola gry (samych komórek)
+// Tworzenie pola gry (samych komórek na planszy)
 function createCells(){
     for(var i=0; i<size; i++){
         cells[i] = [];
@@ -73,7 +73,7 @@ function createCells(){
         }
     }
 }
-// Wypełnianie wybranej komórki
+// Wypełnianie wybranej komórki oraz wpisywanie wartości odpowiednią czcionką
 function drawCell(cell){
     ctx.beginPath();
     ctx.rect(cell.x, cell.y, width, width);
