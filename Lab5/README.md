@@ -26,14 +26,14 @@
 <img src="assets/zadanie3.png" alt=""  style="float: left;" /><br>
 <br>
 ## Zadanie 4
-<img src="assets/zadanie3_code.png" alt=""  style="float: left;" /><br>
-<img src="assets/zadanie3.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie4_code.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie4.png" alt=""  style="float: left;" /><br>
 <br>
 ## Zadanie 5
-<img src="assets/zadanie3_code.png" alt=""  style="float: left;" /><br>
-<img src="assets/zadanie3.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie5_code.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie5.png" alt=""  style="float: left;" /><br>
 <br>
 ## Zadanie 6
-<img src="assets/zadanie3_code.png" alt=""  style="float: left;" /><br>
-<img src="assets/zadanie3.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie6_code.png" alt=""  style="float: left;" /><br>
+<img src="assets/zadanie6.png" alt=""  style="float: left;" /><br>
 <br>
