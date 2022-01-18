@@ -1,7 +1,7 @@
 
 # Laboratorium nr.6 - React - aplikacja nr 1
 
-### Stworzyłem listę najlepszych piłkarzy damskich/męskich roku 2021
+### Stworzyłem listę najlepszych piłkarzy damskich/męskich roku 2021 wybranych przez FIFA FIFPRO
 
 ## Początkowy widok
 ![image](assets/scr/1.png "Men's Players")
