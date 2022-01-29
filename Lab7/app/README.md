@@ -1,5 +1,5 @@
 
-#Lab. nr 7 - "React - aplikacja nr 2"
+# Lab. nr 7 - "React - aplikacja nr 2"
 
 ## Stworzyłem 3 podstrony o różnej tematyce, każda zawierająca min.3 różne komponenty z biblioteki Material UI.
 ### Każdy komponent aplikacji (podstrona) ma swój własny routes
@@ -60,12 +60,12 @@
 ![image](assets/scr/7.png "7")
 
 ## Wykorzystane komponenty Material-UI na tej podstronie:
-###<ul>
-    @material-ui/core/Button
-    @material-ui/core/useMediaQuery
-    @material-ui/core/colors
-    material-auto-rotating-carousel
-###</ul>
+<ul>
+    <li>@material-ui/core/Button</li>
+    <li>@material-ui/core/useMediaQuery</li>
+    <li>@material-ui/core/colors</li>
+    <li>material-auto-rotating-carousel</li>
+</ul>
 
 ## Druga podstrona - "Ocena zamówienia z restauracji":
 ![image](assets/scr/8.png "8")
@@ -100,12 +100,12 @@
 ![image](assets/scr/9.png "9")
 #### Na końcu możemy nacisnąć przycisk do wysłania oceny
 ## Wykorzystane komponenty Material-UI na tej podstronie:
-###<ul>
-    @material-ui/core/Button
-    @mui/material/Stack
-    @mui/material/Rating
-    @mui/material/Typography
-###</ul>
+<ul>
+    <li>@material-ui/core/Button</li>
+    <li>@mui/material/Stack</li>
+    <li>@mui/material/Rating</li>
+    <li>@mui/material/Typography</li>
+</ul>
 
 ## Trzecia podstrona - "Karnet do klubu/siłowni":
 ![image](assets/scr/10.png "10")
@@ -240,85 +240,13 @@ const rodzaj_karnetu = [
 ![image](assets/scr/12.png "12")
 #### Korzystamy też z funkcji map() do generowania komponentów w CardContent oraz Boxów z Typography do danych w górnej częsci karty 
 ## Wykorzystane komponenty Material-UI na tej podstronie:
-###<ul>
-    @material-ui/core/Button
-    @mui/material/Card
-    @mui/material/CardActions
-    @mui/material/CardContent
-    @mui/material/CardHeader
-    @mui/material/Typography
-    @mui/material/Grid
-    @mui/material/GlobalStyles
-###</ul>
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ul>
+    <li>@material-ui/core/Button</li>
+    <li>@mui/material/Card</li>
+    <li>@mui/material/CardActions</li>
+    <li>@mui/material/CardContent</li>
+    <li>@mui/material/CardHeader</li>
+    <li>@mui/material/Typography</li>
+    <li>@mui/material/Grid</li>
+    <li>@mui/material/GlobalStyles</li>
+</ul>
