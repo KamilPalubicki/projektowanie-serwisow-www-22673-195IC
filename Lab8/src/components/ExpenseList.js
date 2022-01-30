@@ -31,6 +31,7 @@ const ExpenseList = () => {
 					<ExpenseItem
 						id={expense.id}
 						name={expense.name}
+						category={expense.category}
 						cost={expense.cost}
 					/>
 				))}

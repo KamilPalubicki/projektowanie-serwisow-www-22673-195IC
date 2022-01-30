@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from "@mui/material/Button";
 
 const EditBudget = (props) => {
 	const [value, setValue] = useState(props.budget);
@@ -12,13 +13,7 @@ const EditBudget = (props) => {
 				value={value}
 				onChange={(event) => setValue(event.target.value)}
 			/>
-			<button
-				type='button'
-				class='btn btn-primary'
-				onClick={() => props.handleSaveClick(value)}
-			>
-				Save
-			</button>
+			<Button onClick={() => props.handleSaveClick(value)} variant="contained" >Save</Button>
 		</>
 	);
 };
